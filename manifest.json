@@ -6,11 +6,15 @@
 
   "description": "Adds 'Open In X-Ray' links into SumoLogic query results",
 
+  "icons": {
+    "48": "icons/open-in-xray-48.png",
+    "128": "icons/open-in-xray-128.png"
+  },
+
   "content_scripts": [
     {
       "matches": ["*://*.sumologic.com/*"],
       "js": ["openSumoResultInXRay.js"]
     }
   ]
-
 }
