@@ -1,0 +1,16 @@
+{
+
+  "manifest_version": 2,
+  "name": "Open In AWS X-Ray",
+  "version": "1.0",
+
+  "description": "Adds 'Open In X-Ray' links into SumoLogic query results",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.sumologic.com/*"],
+      "js": ["openSumoResultInXRay.js"]
+    }
+  ]
+
+}
