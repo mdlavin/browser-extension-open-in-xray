@@ -5,6 +5,10 @@ to AWS X-Ray traces. Here is an example of how it improves your searches:
 
 ![Example Screenshot](/images/screenshot.png)
 
+## Installing
+
+The extension is available as both [a Chrome Extension](https://chrome.google.com/webstore/detail/open-in-aws-x-ray/pgenmgopbcfpinamahhelajhookfpboi) and [a Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/open-in-x-ray/)
+
 ## NOTE
 
 Only the `correlationId` is supported right now. More links should be added
