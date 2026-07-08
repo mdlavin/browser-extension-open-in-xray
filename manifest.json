@@ -2,7 +2,7 @@
 
   "manifest_version": 3,
   "name": "Open In AWS X-Ray",
-  "version": "1.0",
+  "version": "1.0.1",
 
   "description": "Adds 'Open In X-Ray' links into SumoLogic query results",
 
